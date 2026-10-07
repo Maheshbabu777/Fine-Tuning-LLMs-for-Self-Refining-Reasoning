@@ -1,0 +1,14 @@
+{
+  "id": "shouldichangemyname/selfrefine-04-generate-reviews",
+  "title": "selfrefine-04-generate-reviews",
+  "code_file": "04_generate_reviews.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": ["shouldichangemyname/selfrefine-review-pairs"],
+  "competition_sources": [],
+  "kernel_sources": []
+}

@@ -1,0 +1,218 @@
+[{"stream_name":"stderr","time":7.243626594,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.243695704,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.243702606,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.243707375,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.874143605,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.874178783,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.874186225,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.8741939290000005,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":10.404543097,"data":"Found existing installation: torchao 0.10.0\r\n"}
+,{"stream_name":"stdout","time":10.506956073,"data":"Uninstalling torchao-0.10.0:\r\n"}
+,{"stream_name":"stdout","time":10.811804563,"data":"  Successfully uninstalled torchao-0.10.0\r\n"}
+,{"stream_name":"stdout","time":12.802164609,"data":"Collecting transformers==5.18.0\r\n"}
+,{"stream_name":"stdout","time":12.8536097,"data":"  Downloading transformers-5.18.0-py3-none-any.whl.metadata (32 kB)\r\n"}
+,{"stream_name":"stdout","time":13.005719729,"data":"Collecting peft==0.21.1\r\n"}
+,{"stream_name":"stdout","time":13.005747639,"data":"  Downloading peft-0.21.1-py3-none-any.whl.metadata (14 kB)\r\n"}
+,{"stream_name":"stdout","time":13.107778838,"data":"Collecting trl==1.14.1\r\n"}
+,{"stream_name":"stdout","time":13.107806862,"data":"  Downloading trl-1.14.1-py3-none-any.whl.metadata (12 kB)\r\n"}
+,{"stream_name":"stdout","time":13.158850894,"data":"Requirement already satisfied: datasets in /usr/local/lib/python3.12/dist-packages (5.0.0)\r\n"}
+,{"stream_name":"stdout","time":13.311245942,"data":"Collecting datasets\r\n"}
+,{"stream_name":"stdout","time":13.311273548,"data":"  Downloading datasets-5.0.1-py3-none-any.whl.metadata (23 kB)\r\n"}
+,{"stream_name":"stdout","time":13.362335916,"data":"Requirement already satisfied: accelerate in /usr/local/lib/python3.12/dist-packages (1.13.0)\r\n"}
+,{"stream_name":"stdout","time":13.413310115,"data":"Collecting accelerate\r\n"}
+,{"stream_name":"stdout","time":13.413333471,"data":"  Downloading accelerate-1.15.0-py3-none-any.whl.metadata (19 kB)\r\n"}
+,{"stream_name":"stdout","time":13.667182778,"data":"Collecting huggingface-hub\u003c3.0,\u003e=1.31.0 (from transformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":13.667209228,"data":"  Downloading huggingface_hub-2.1.1-py3-none-any.whl.metadata (16 kB)\r\n"}
+,{"stream_name":"stdout","time":13.718049908,"data":"Requirement already satisfied: numpy\u003e=1.17 in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (2.0.2)\r\n"}
+,{"stream_name":"stdout","time":13.718081987,"data":"Requirement already satisfied: packaging\u003e=20.0 in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (26.1)\r\n"}
+,{"stream_name":"stdout","time":13.718086078,"data":"Requirement already satisfied: pyyaml\u003e=5.1 in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (6.0.3)\r\n"}
+,{"stream_name":"stdout","time":13.718089078,"data":"Requirement already satisfied: regex\u003e=2025.10.22 in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (2025.11.3)\r\n"}
+,{"stream_name":"stdout","time":14.07420147,"data":"Collecting tokenizers\u003c0.24.0,\u003e=0.23.1 (from transformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":14.074247787,"data":"  Downloading tokenizers-0.23.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.8 kB)\r\n"}
+,{"stream_name":"stdout","time":14.0742521,"data":"Requirement already satisfied: typer in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (0.24.2)\r\n"}
+,{"stream_name":"stdout","time":14.379069181,"data":"Collecting safetensors\u003e=0.8.0 (from transformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":14.379117089,"data":"  Downloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)\r\n"}
+,{"stream_name":"stdout","time":14.430150588,"data":"Requirement already satisfied: tqdm\u003e=4.60 in /usr/local/lib/python3.12/dist-packages (from transformers==5.18.0) (4.67.3)\r\n"}
+,{"stream_name":"stdout","time":14.430188148,"data":"Requirement already satisfied: psutil in /usr/local/lib/python3.12/dist-packages (from peft==0.21.1) (5.9.5)\r\n"}
+,{"stream_name":"stdout","time":14.430191808,"data":"Requirement already satisfied: torch\u003e=1.13.0 in /usr/local/lib/python3.12/dist-packages (from peft==0.21.1) (2.10.0+cu128)\r\n"}
+,{"stream_name":"stdout","time":14.481224969,"data":"Requirement already satisfied: jinja2 in /usr/local/lib/python3.12/dist-packages (from trl==1.14.1) (3.1.6)\r\n"}
+,{"stream_name":"stdout","time":14.532236451,"data":"Requirement already satisfied: filelock in /usr/local/lib/python3.12/dist-packages (from datasets) (3.29.0)\r\n"}
+,{"stream_name":"stdout","time":14.532266492,"data":"Requirement already satisfied: pyarrow\u003e=21.0.0 in /usr/local/lib/python3.12/dist-packages (from datasets) (24.0.0)\r\n"}
+,{"stream_name":"stdout","time":14.532270374,"data":"Requirement already satisfied: dill\u003c0.4.2,\u003e=0.3.0 in /usr/local/lib/python3.12/dist-packages (from datasets) (0.4.1)\r\n"}
+,{"stream_name":"stdout","time":14.532273168,"data":"Requirement already satisfied: pandas in /usr/local/lib/python3.12/dist-packages (from datasets) (2.3.3)\r\n"}
+,{"stream_name":"stdout","time":14.532275672,"data":"Requirement already satisfied: requests\u003e=2.32.2 in /usr/local/lib/python3.12/dist-packages (from datasets) (2.32.4)\r\n"}
+,{"stream_name":"stdout","time":14.532278281,"data":"Requirement already satisfied: httpx\u003c1.0.0 in /usr/local/lib/python3.12/dist-packages (from datasets) (0.28.1)\r\n"}
+,{"stream_name":"stdout","time":14.532280712,"data":"Requirement already satisfied: xxhash in /usr/local/lib/python3.12/dist-packages (from datasets) (3.6.0)\r\n"}
+,{"stream_name":"stdout","time":14.532283945,"data":"Requirement already satisfied: multiprocess\u003c0.70.20 in /usr/local/lib/python3.12/dist-packages (from datasets) (0.70.16)\r\n"}
+,{"stream_name":"stdout","time":14.532300982,"data":"Requirement already satisfied: fsspec\u003c=2026.6.0,\u003e=2023.1.0 in /usr/local/lib/python3.12/dist-packages (from fsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (2025.3.0)\r\n"}
+,{"stream_name":"stdout","time":14.583110573999999,"data":"Collecting huggingface-hub\u003c3.0,\u003e=1.31.0 (from transformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":14.583141096,"data":"  Downloading huggingface_hub-1.33.0-py3-none-any.whl.metadata (16 kB)\r\n"}
+,{"stream_name":"stdout","time":14.686379295,"data":"Requirement already satisfied: aiohttp!=4.0.0a0,!=4.0.0a1 in /usr/local/lib/python3.12/dist-packages (from fsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (3.13.5)\r\n"}
+,{"stream_name":"stdout","time":14.686430325,"data":"Requirement already satisfied: anyio in /usr/local/lib/python3.12/dist-packages (from httpx\u003c1.0.0-\u003edatasets) (4.13.0)\r\n"}
+,{"stream_name":"stdout","time":14.686435746,"data":"Requirement already satisfied: certifi in /usr/local/lib/python3.12/dist-packages (from httpx\u003c1.0.0-\u003edatasets) (2026.4.22)\r\n"}
+,{"stream_name":"stdout","time":14.686457269,"data":"Requirement already satisfied: httpcore==1.* in /usr/local/lib/python3.12/dist-packages (from httpx\u003c1.0.0-\u003edatasets) (1.0.9)\r\n"}
+,{"stream_name":"stdout","time":14.686461313,"data":"Requirement already satisfied: idna in /usr/local/lib/python3.12/dist-packages (from httpx\u003c1.0.0-\u003edatasets) (3.13)\r\n"}
+,{"stream_name":"stdout","time":14.686465358,"data":"Requirement already satisfied: h11\u003e=0.16 in /usr/local/lib/python3.12/dist-packages (from httpcore==1.*-\u003ehttpx\u003c1.0.0-\u003edatasets) (0.16.0)\r\n"}
+,{"stream_name":"stdout","time":14.787975437,"data":"Collecting click\u003c9.0.0,\u003e=8.4.2 (from huggingface-hub\u003c3.0,\u003e=1.31.0-\u003etransformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":14.78800242,"data":"  Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)\r\n"}
+,{"stream_name":"stdout","time":14.939948136,"data":"Collecting hf-xet\u003c2.0.0,\u003e=1.6.0 (from huggingface-hub\u003c3.0,\u003e=1.31.0-\u003etransformers==5.18.0)\r\n"}
+,{"stream_name":"stdout","time":14.939975388,"data":"  Downloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)\r\n"}
+,{"stream_name":"stdout","time":14.991082063,"data":"Requirement already satisfied: typing-extensions\u003e=4.1.0 in /usr/local/lib/python3.12/dist-packages (from huggingface-hub\u003c3.0,\u003e=1.31.0-\u003etransformers==5.18.0) (4.15.0)\r\n"}
+,{"stream_name":"stdout","time":14.991130443,"data":"Requirement already satisfied: charset_normalizer\u003c4,\u003e=2 in /usr/local/lib/python3.12/dist-packages (from requests\u003e=2.32.2-\u003edatasets) (3.4.7)\r\n"}
+,{"stream_name":"stdout","time":14.991137374000001,"data":"Requirement already satisfied: urllib3\u003c3,\u003e=1.21.1 in /usr/local/lib/python3.12/dist-packages (from requests\u003e=2.32.2-\u003edatasets) (2.5.0)\r\n"}
+,{"stream_name":"stdout","time":15.042153801,"data":"Requirement already satisfied: setuptools in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (81.0.0)\r\n"}
+,{"stream_name":"stdout","time":15.042178603,"data":"Requirement already satisfied: sympy\u003e=1.13.3 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (1.14.0)\r\n"}
+,{"stream_name":"stdout","time":15.042183858,"data":"Requirement already satisfied: networkx\u003e=2.5.1 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (3.6.1)\r\n"}
+,{"stream_name":"stdout","time":15.042187963,"data":"Requirement already satisfied: cuda-bindings==12.9.4 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.9.4)\r\n"}
+,{"stream_name":"stdout","time":15.042192298,"data":"Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.93)\r\n"}
+,{"stream_name":"stdout","time":15.04219652,"data":"Requirement already satisfied: nvidia-cuda-runtime-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.90)\r\n"}
+,{"stream_name":"stdout","time":15.042200584,"data":"Requirement already satisfied: nvidia-cuda-cupti-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.90)\r\n"}
+,{"stream_name":"stdout","time":15.042204801,"data":"Requirement already satisfied: nvidia-cudnn-cu12==9.10.2.21 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (9.10.2.21)\r\n"}
+,{"stream_name":"stdout","time":15.042208991,"data":"Requirement already satisfied: nvidia-cublas-cu12==12.8.4.1 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.4.1)\r\n"}
+,{"stream_name":"stdout","time":15.042227363,"data":"Requirement already satisfied: nvidia-cufft-cu12==11.3.3.83 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (11.3.3.83)\r\n"}
+,{"stream_name":"stdout","time":15.042231727,"data":"Requirement already satisfied: nvidia-curand-cu12==10.3.9.90 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (10.3.9.90)\r\n"}
+,{"stream_name":"stdout","time":15.042235745,"data":"Requirement already satisfied: nvidia-cusolver-cu12==11.7.3.90 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (11.7.3.90)\r\n"}
+,{"stream_name":"stdout","time":15.04223983,"data":"Requirement already satisfied: nvidia-cusparse-cu12==12.5.8.93 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.5.8.93)\r\n"}
+,{"stream_name":"stdout","time":15.042245484,"data":"Requirement already satisfied: nvidia-cusparselt-cu12==0.7.1 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (0.7.1)\r\n"}
+,{"stream_name":"stdout","time":15.042249873,"data":"Requirement already satisfied: nvidia-nccl-cu12==2.27.5 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (2.27.5)\r\n"}
+,{"stream_name":"stdout","time":15.042253948,"data":"Requirement already satisfied: nvidia-nvshmem-cu12==3.4.5 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (3.4.5)\r\n"}
+,{"stream_name":"stdout","time":15.042258556,"data":"Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.90)\r\n"}
+,{"stream_name":"stdout","time":15.042262853,"data":"Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (12.8.93)\r\n"}
+,{"stream_name":"stdout","time":15.042267084,"data":"Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (1.13.1.3)\r\n"}
+,{"stream_name":"stdout","time":15.042271269,"data":"Requirement already satisfied: triton==3.6.0 in /usr/local/lib/python3.12/dist-packages (from torch\u003e=1.13.0-\u003epeft==0.21.1) (3.6.0)\r\n"}
+,{"stream_name":"stdout","time":15.042275443,"data":"Requirement already satisfied: cuda-pathfinder~=1.1 in /usr/local/lib/python3.12/dist-packages (from cuda-bindings==12.9.4-\u003etorch\u003e=1.13.0-\u003epeft==0.21.1) (1.5.3)\r\n"}
+,{"stream_name":"stdout","time":15.092985459,"data":"Requirement already satisfied: MarkupSafe\u003e=2.0 in /usr/local/lib/python3.12/dist-packages (from jinja2-\u003etrl==1.14.1) (3.0.3)\r\n"}
+,{"stream_name":"stdout","time":15.14435664,"data":"Requirement already satisfied: python-dateutil\u003e=2.8.2 in /usr/local/lib/python3.12/dist-packages (from pandas-\u003edatasets) (2.9.0.post0)\r\n"}
+,{"stream_name":"stdout","time":15.144381945,"data":"Requirement already satisfied: pytz\u003e=2020.1 in /usr/local/lib/python3.12/dist-packages (from pandas-\u003edatasets) (2025.2)\r\n"}
+,{"stream_name":"stdout","time":15.144387135,"data":"Requirement already satisfied: tzdata\u003e=2022.7 in /usr/local/lib/python3.12/dist-packages (from pandas-\u003edatasets) (2026.1)\r\n"}
+,{"stream_name":"stdout","time":15.144391511,"data":"Requirement already satisfied: shellingham\u003e=1.3.0 in /usr/local/lib/python3.12/dist-packages (from typer-\u003etransformers==5.18.0) (1.5.4)\r\n"}
+,{"stream_name":"stdout","time":15.144395885,"data":"Requirement already satisfied: rich\u003e=12.3.0 in /usr/local/lib/python3.12/dist-packages (from typer-\u003etransformers==5.18.0) (13.9.4)\r\n"}
+,{"stream_name":"stdout","time":15.144412669,"data":"Requirement already satisfied: annotated-doc\u003e=0.0.2 in /usr/local/lib/python3.12/dist-packages (from typer-\u003etransformers==5.18.0) (0.0.4)\r\n"}
+,{"stream_name":"stdout","time":15.144417297,"data":"Requirement already satisfied: aiohappyeyeballs\u003e=2.5.0 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (2.6.1)\r\n"}
+,{"stream_name":"stdout","time":15.144421762,"data":"Requirement already satisfied: aiosignal\u003e=1.4.0 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (1.4.0)\r\n"}
+,{"stream_name":"stdout","time":15.144426098,"data":"Requirement already satisfied: attrs\u003e=17.3.0 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (26.1.0)\r\n"}
+,{"stream_name":"stdout","time":15.144430583,"data":"Requirement already satisfied: frozenlist\u003e=1.1.1 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (1.8.0)\r\n"}
+,{"stream_name":"stdout","time":15.144434879,"data":"Requirement already satisfied: multidict\u003c7.0,\u003e=4.5 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (6.7.1)\r\n"}
+,{"stream_name":"stdout","time":15.144439409,"data":"Requirement already satisfied: propcache\u003e=0.2.0 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (0.4.1)\r\n"}
+,{"stream_name":"stdout","time":15.144444931,"data":"Requirement already satisfied: yarl\u003c2.0,\u003e=1.17.0 in /usr/local/lib/python3.12/dist-packages (from aiohttp!=4.0.0a0,!=4.0.0a1-\u003efsspec[http]\u003c=2026.6.0,\u003e=2023.1.0-\u003edatasets) (1.23.0)\r\n"}
+,{"stream_name":"stdout","time":15.195148333,"data":"Requirement already satisfied: six\u003e=1.5 in /usr/local/lib/python3.12/dist-packages (from python-dateutil\u003e=2.8.2-\u003epandas-\u003edatasets) (1.17.0)\r\n"}
+,{"stream_name":"stdout","time":15.195176978,"data":"Requirement already satisfied: markdown-it-py\u003e=2.2.0 in /usr/local/lib/python3.12/dist-packages (from rich\u003e=12.3.0-\u003etyper-\u003etransformers==5.18.0) (4.0.0)\r\n"}
+,{"stream_name":"stdout","time":15.195182359,"data":"Requirement already satisfied: pygments\u003c3.0.0,\u003e=2.13.0 in /usr/local/lib/python3.12/dist-packages (from rich\u003e=12.3.0-\u003etyper-\u003etransformers==5.18.0) (2.20.0)\r\n"}
+,{"stream_name":"stdout","time":15.195186937,"data":"Requirement already satisfied: mpmath\u003c1.4,\u003e=1.1.0 in /usr/local/lib/python3.12/dist-packages (from sympy\u003e=1.13.3-\u003etorch\u003e=1.13.0-\u003epeft==0.21.1) (1.3.0)\r\n"}
+,{"stream_name":"stdout","time":15.246301792,"data":"Requirement already satisfied: mdurl~=0.1 in /usr/local/lib/python3.12/dist-packages (from markdown-it-py\u003e=2.2.0-\u003erich\u003e=12.3.0-\u003etyper-\u003etransformers==5.18.0) (0.1.2)\r\n"}
+,{"stream_name":"stdout","time":15.297571408,"data":"Downloading transformers-5.18.0-py3-none-any.whl (12.6 MB)\r\n"}
+,{"stream_name":"stdout","time":15.399406232,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/12.6 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m\u001b[90m━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m6.3/12.6 MB\u001b[0m \u001b[31m188.7 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.6/12.6 MB\u001b[0m \u001b[31m220.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m12.6/12.6 MB\u001b[0m \u001b[31m220.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m12.6/12.6 MB\u001b[0m \u001b[31m101.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.399461084,"data":"\u001b[?25hDownloading peft-0.21.1-py3-none-any.whl (835 kB)\r\n"}
+,{"stream_name":"stdout","time":15.4503987,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/835.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m835.4/835.4 kB\u001b[0m \u001b[31m34.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.450442849,"data":"\u001b[?25hDownloading trl-1.14.1-py3-none-any.whl (925 kB)\r\n"}
+,{"stream_name":"stdout","time":15.450446436,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/925.5 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m925.5/925.5 kB\u001b[0m \u001b[31m36.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.450450682,"data":"\u001b[?25hDownloading datasets-5.0.1-py3-none-any.whl (559 kB)\r\n"}
+,{"stream_name":"stdout","time":15.500963538,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/559.1 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m559.1/559.1 kB\u001b[0m \u001b[31m20.8 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.500993398,"data":"\u001b[?25hDownloading accelerate-1.15.0-py3-none-any.whl (394 kB)\r\n"}
+,{"stream_name":"stdout","time":15.552248968,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/394.3 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m394.3/394.3 kB\u001b[0m \u001b[31m18.2 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.552297283,"data":"\u001b[?25hDownloading huggingface_hub-1.33.0-py3-none-any.whl (846 kB)\r\n"}
+,{"stream_name":"stdout","time":15.552302621,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/846.4 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m846.4/846.4 kB\u001b[0m \u001b[31m36.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.552320848,"data":"\u001b[?25hDownloading safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (516 kB)\r\n"}
+,{"stream_name":"stdout","time":15.603457145,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/516.0 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m516.0/516.0 kB\u001b[0m \u001b[31m25.4 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.603502935,"data":"\u001b[?25hDownloading tokenizers-0.23.2-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)\r\n"}
+,{"stream_name":"stdout","time":15.654070566,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/3.4 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m229.8 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m3.4/3.4 MB\u001b[0m \u001b[31m86.1 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.65410396,"data":"\u001b[?25hDownloading click-8.5.0-py3-none-any.whl (125 kB)\r\n"}
+,{"stream_name":"stdout","time":15.654109465,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/125.3 kB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m125.3/125.3 kB\u001b[0m \u001b[31m6.6 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":15.654117053,"data":"\u001b[?25hDownloading hf_xet-1.6.0-cp38-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.5 MB)\r\n"}
+,{"stream_name":"stdout","time":15.705608005,"data":"\u001b[?25l   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m0.0/4.5 MB\u001b[0m \u001b[31m?\u001b[0m eta \u001b[36m-:--:--\u001b[0m\r\u001b[2K   \u001b[91m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m\u001b[91m╸\u001b[0m \u001b[32m4.5/4.5 MB\u001b[0m \u001b[31m232.2 MB/s\u001b[0m eta \u001b[36m0:00:01\u001b[0m\r\u001b[2K   \u001b[90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\u001b[0m \u001b[32m4.5/4.5 MB\u001b[0m \u001b[31m98.9 MB/s\u001b[0m eta \u001b[36m0:00:00\u001b[0m\r\n"}
+,{"stream_name":"stdout","time":18.097601753,"data":"\u001b[?25hInstalling collected packages: safetensors, hf-xet, click, huggingface-hub, tokenizers, datasets, accelerate, transformers, trl, peft\r\n"}
+,{"stream_name":"stdout","time":18.097666368,"data":"  Attempting uninstall: safetensors\r\n"}
+,{"stream_name":"stdout","time":18.402795642,"data":"    Found existing installation: safetensors 0.7.0\r\n"}
+,{"stream_name":"stdout","time":18.403009585,"data":"    Uninstalling safetensors-0.7.0:\r\n"}
+,{"stream_name":"stdout","time":18.40301963,"data":"      Successfully uninstalled safetensors-0.7.0\r\n"}
+,{"stream_name":"stdout","time":18.454195096,"data":"  Attempting uninstall: hf-xet\r\n"}
+,{"stream_name":"stdout","time":18.658088061,"data":"    Found existing installation: hf-xet 1.4.3\r\n"}
+,{"stream_name":"stdout","time":18.658116037,"data":"    Uninstalling hf-xet-1.4.3:\r\n"}
+,{"stream_name":"stdout","time":18.708757958,"data":"      Successfully uninstalled hf-xet-1.4.3\r\n"}
+,{"stream_name":"stdout","time":18.810602548,"data":"  Attempting uninstall: click\r\n"}
+,{"stream_name":"stdout","time":19.166608165,"data":"    Found existing installation: click 8.3.3\r\n"}
+,{"stream_name":"stdout","time":19.166633224999998,"data":"    Uninstalling click-8.3.3:\r\n"}
+,{"stream_name":"stdout","time":19.166661301,"data":"      Successfully uninstalled click-8.3.3\r\n"}
+,{"stream_name":"stdout","time":19.268450653,"data":"  Attempting uninstall: huggingface-hub\r\n"}
+,{"stream_name":"stdout","time":19.472197828,"data":"    Found existing installation: huggingface_hub 1.11.0\r\n"}
+,{"stream_name":"stdout","time":19.522741859,"data":"    Uninstalling huggingface_hub-1.11.0:\r\n"}
+,{"stream_name":"stdout","time":19.67577608,"data":"      Successfully uninstalled huggingface_hub-1.11.0\r\n"}
+,{"stream_name":"stdout","time":20.235631749,"data":"  Attempting uninstall: tokenizers\r\n"}
+,{"stream_name":"stdout","time":20.541615113,"data":"    Found existing installation: tokenizers 0.22.2\r\n"}
+,{"stream_name":"stdout","time":20.541664596,"data":"    Uninstalling tokenizers-0.22.2:\r\n"}
+,{"stream_name":"stdout","time":20.592677394,"data":"      Successfully uninstalled tokenizers-0.22.2\r\n"}
+,{"stream_name":"stdout","time":20.694660801,"data":"  Attempting uninstall: datasets\r\n"}
+,{"stream_name":"stdout","time":20.745777605,"data":"    Found existing installation: datasets 5.0.0\r\n"}
+,{"stream_name":"stdout","time":20.797078348,"data":"    Uninstalling datasets-5.0.0:\r\n"}
+,{"stream_name":"stdout","time":20.89922187,"data":"      Successfully uninstalled datasets-5.0.0\r\n"}
+,{"stream_name":"stdout","time":21.306248269,"data":"  Attempting uninstall: accelerate\r\n"}
+,{"stream_name":"stdout","time":21.509726623,"data":"    Found existing installation: accelerate 1.13.0\r\n"}
+,{"stream_name":"stdout","time":21.509755067,"data":"    Uninstalling accelerate-1.13.0:\r\n"}
+,{"stream_name":"stdout","time":21.61175542,"data":"      Successfully uninstalled accelerate-1.13.0\r\n"}
+,{"stream_name":"stdout","time":21.866081541,"data":"  Attempting uninstall: transformers\r\n"}
+,{"stream_name":"stdout","time":22.221402801,"data":"    Found existing installation: transformers 5.0.0\r\n"}
+,{"stream_name":"stdout","time":22.576188906,"data":"    Uninstalling transformers-5.0.0:\r\n"}
+,{"stream_name":"stdout","time":24.249938624,"data":"      Successfully uninstalled transformers-5.0.0\r\n"}
+,{"stream_name":"stdout","time":33.173012391,"data":"  Attempting uninstall: peft\r\n"}
+,{"stream_name":"stdout","time":33.426599542,"data":"    Found existing installation: peft 0.19.1\r\n"}
+,{"stream_name":"stdout","time":33.477772862,"data":"    Uninstalling peft-0.19.1:\r\n"}
+,{"stream_name":"stdout","time":33.629641447,"data":"      Successfully uninstalled peft-0.19.1\r\n"}
+,{"stream_name":"stdout","time":34.237821857,"data":"\u001b[31mERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.\r\n"}
+,{"stream_name":"stdout","time":34.237885015,"data":"google-adk 1.29.0 requires google-cloud-bigquery-storage\u003e=2.0.0, which is not installed.\u001b[0m\u001b[31m\r\n"}
+,{"stream_name":"stdout","time":34.237892586,"data":"\u001b[0mSuccessfully installed accelerate-1.15.0 click-8.5.0 datasets-5.0.1 hf-xet-1.6.0 huggingface-hub-1.33.0 peft-0.21.1 safetensors-0.8.0 tokenizers-0.23.2 transformers-5.18.0 trl-1.14.1\r\n"}
+,{"stream_name":"stdout","time":64.672383024,"data":"Python: 3.12.13 (main, Mar  4 2026, 09:23:07) [GCC 11.4.0]\n"}
+,{"stream_name":"stdout","time":64.672436809,"data":"Torch: 2.10.0+cu128\n"}
+,{"stream_name":"stdout","time":64.672444428,"data":"Transformers: 5.18.0\n"}
+,{"stream_name":"stdout","time":64.672449996,"data":"PEFT: 0.21.1\n"}
+,{"stream_name":"stdout","time":64.672455511,"data":"Datasets: 5.0.1\n"}
+,{"stream_name":"stdout","time":64.672460621,"data":"TRL: 1.14.1\n"}
+,{"stream_name":"stdout","time":64.672465311,"data":"CUDA available: True\n"}
+,{"stream_name":"stdout","time":64.672469991,"data":"GPU: Tesla T4\n"}
+,{"stream_name":"stdout","time":64.902082392,"data":"/kaggle/input/datasets/likhilchandrabingi/selfrefine-sft-review-27b/sft_review_27b.json\n"}
+,{"stream_name":"stdout","time":64.902977296,"data":"3289\n"}
+,{"stream_name":"stderr","time":65.302669645,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":65.302712112,"data":"\n"}
+,{"stream_name":"stderr","time":65.302716682,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stdout","time":68.084402878,"data":"Tokenizer loaded\n"}
+,{"stream_name":"stdout","time":68.084443959,"data":"EOS Token: \u003c|endoftext|\u003e\n"}
+,{"stream_name":"stdout","time":68.125691235,"data":"[Question] Expand $(2z^2 + 5z - 6)(3z^3 - 2z + 1)$.\n"}
+,{"stream_name":"stdout","time":68.125726841,"data":"[Answer 1] \n"}
+,{"stream_name":"stdout","time":68.12574761,"data":"\\begin{aligned} (2z^2 + 5z - 6)(3z^3 - 2z + 1) \u0026= 2z^2(3z^3 - 2z + 1) + 5z(3z^3 - 2z + 1) - 6(3z^3 - 2z + 1) \\\\ \u0026= 6z^5 - 4z^3 + 2z^2 + 15z^4 - 10z^2 + 5z - 18z^3 + 12z - 6 \\\\ \u0026= 6z^5 + 15z^4 - 22z^3 - 10z^2 + 12z - 6 \\end{aligned} \\boxed{6z^5 + 15z^4 - 22z^3 - 10z^2 + 12z - 6}\n"}
+,{"stream_name":"stdout","time":68.125756184,"data":"[Answer 2] \n"}
+,{"stream_name":"stdout","time":68.12576206,"data":"First, we need to expand the product \\((2z^2 + 5z - 6)(3z^3 - 2z + 1)\\). We will use the distributive property (also known as the FOIL method for binomials or the distributive property for polynomials). \\[ (2z^2 + 5z - 6)(3z^3 - 2z + 1) \\] We distribute each term in the first polynomial to each term in the second polynomial: \\[ 2z^2 \\cdot 3z^3 + 2z^2 \\cdot (-2z) + 2z^2 \\cdot 1 + 5z \\cdot 3z^3 + 5z \\cdot (-2z) + 5z \\cdot 1 - 6 \\cdot 3z^3 - 6 \\cdot (-2z) - 6 \\cdot 1 \\] Now, we compute each term: \\[ 2z^2 \\cdot 3z^3 = 6z^5 \\] \\[ 2z^2 \\cdot (-2z) = -4z^3 \\] \\[ 2z^2 \\cdot 1 = 2z^2 \\] \\[ 5z \\cdot 3z^3 = 15z^4 \\] \\[ 5z \\cdot (-2z) = -10z^2 \\] \\[ 5z \\cdot 1 = 5z \\] \\[ -6 \\cdot 3z^3 = -18z^3 \\] \\[ -6 \\cdot (-2z) = 12z \\] \\[ -6 \\cdot 1 = -6 \\] Now, we combine all these terms: \\[ 6z^5 - 4z^3 + 2z^2 + 15z^4 - 10z^2 + 5z - 18z^3 + 12z - 6 \\] Combine like terms: \\[ 6z^5 + 15z^4 + (-4z^3 - 18z^3) + (2z^2 - 10z^2) + 5z + 12z - 6 \\] \\[ 6z^5 + 15z^4 - 22z^3 - 8z^2 + 17z - 6 \\] So, the expanded form is: \\[ \\boxed{6z^5 + 15z^4 - 22z^3 - 8z^2 + 17z - 6} \\]\n"}
+,{"stream_name":"stdout","time":68.125773938,"data":"[Review] \n"}
+,{"stream_name":"stdout","time":68.125780032,"data":"In my first attempt, I arrived at $6z^5 + 15z^4 - 22z^3 - 10z^2 + 12z - 6$, while my second attempt yielded $6z^5 + 15z^4 - 22z^3 - 8z^2 + 17z - 6$. Looking closely at the first solution, I see I made a mistake when combining the like terms in the final step. Specifically, I incorrectly summed the $z^2$ terms as $-10z^2$ instead of $2z^2 - 10z^2 = -8z^2$, and I failed to add the $z$ terms correctly, writing $12z$ instead of $5z + 12z = 17z$. The second solution correctly identifies and sums these individual terms, leading to the accurate coefficients for the lower-degree powers. Therefore the final answer is \\boxed{6z^5+15z^4-22z^3-8z^2+17z-6}.\n"}
+,{"stream_name":"stdout","time":68.125803203,"data":"[Final answer] 6z^5+15z^4-22z^3-8z^2+17z-6\u003c|endoftext|\u003e\n"}
+,{"stream_name":"stdout","time":74.184707645,"data":"min 272\n"}
+,{"stream_name":"stdout","time":74.184743318,"data":"max 1949\n"}
+,{"stream_name":"stdout","time":74.184748548,"data":"avg 919.39312861052\n"}
+,{"stream_name":"stdout","time":74.184752514,"data":"Dataset({\n"}
+,{"stream_name":"stdout","time":74.18475625,"data":"    features: ['prompt', 'completion'],\n"}
+,{"stream_name":"stdout","time":74.184760068,"data":"    num_rows: 3289\n"}
+,{"stream_name":"stdout","time":74.184763808,"data":"})\n"}
+,{"stream_name":"stdout","time":106.846226452,"data":"Model loaded\n"}
+,{"stream_name":"stdout","time":106.846267297,"data":"Qwen3_5ForCausalLM\n"}
+,{"stream_name":"stdout","time":107.516788483,"data":"trainable params: 15,630,336 || all params: 1,897,455,424 || trainable%: 0.8238\n"}
+,{"stream_name":"stdout","time":107.606943694,"data":"Training config created\n"}
+,{"stream_name":"stdout","time":132.274034911,"data":"SFT trainer created\n"}
+,{"stream_name":"stdout","time":132.300488171,"data":"z^2+17z-6\u003c|endoftext|\u003e\n"}
+,{"stream_name":"stdout","time":132.300521607,"data":"Ends with EOS: True\n"}
+,{"stream_name":"stdout","time":132.300527864,"data":"dict_keys(['prompt', 'completion', 'input_ids', 'labels'])\n"}
+,{"stream_name":"stderr","time":133.442014534,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":133.442053518,"data":"\n"}
+,{"stream_name":"stderr","time":133.44205968,"data":"[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":134.579475921,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stderr","time":134.579511029,"data":"\n"}
+,{"stream_name":"stderr","time":134.579527072,"data":"[transformers] `chunk_gated_delta_rule` is falling back to its reference PyTorch implementation because `flash-linear-attention` is not installed. This is correct but much slower; install `flash-linear-attention` for the optimized kernel.\n"}
+,{"stream_name":"stdout","time":13313.006928649,"data":"Done training\n"}
+,{"stream_name":"stdout","time":13313.786787063,"data":"Final model saved to: /kaggle/working/models/qwen2b-review_27b-final\n"}
+,{"stream_name":"stdout","time":13317.503224497,"data":"Created: /kaggle/working/models/qwen2b-review_27b-final.zip\n"}
+,{"stream_name":"stderr","time":13323.981622266,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13323.981669262,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13324.143193325,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13324.143216356,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13324.747317534,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":13325.093710146,"data":"[NbConvertApp] Writing 200912 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":13327.404164431,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13328.242442217,"data":"[NbConvertApp] Writing 454622 bytes to __results__.html\n"}
+]

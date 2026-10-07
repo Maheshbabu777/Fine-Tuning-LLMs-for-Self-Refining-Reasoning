@@ -1,0 +1,14 @@
+{
+  "id": "shouldichangemyname/selfrefine-02-gen-chains-full",
+  "title": "selfrefine-02-gen-chains-full",
+  "code_file": "gen_chains.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": []
+}
