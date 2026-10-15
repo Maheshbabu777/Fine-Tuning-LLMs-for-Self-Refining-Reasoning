@@ -33,3 +33,27 @@ wandb/
 # OS
 .DS_Store
 Thumbs.db
+# Kaggle credentials
+kaggle.json
+.kaggle/
+models/**/*.zip
+
+# Model weights anywhere in the repo (adapters are shared separately)
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.zip
+
+# Large intermediate files that the notebooks regenerate
+datasets/chains_*.json
+experiments/01_gen_chains/out*/
+experiments/02_gen_chains_full/out/*.jsonl
+experiments/4b_02_chains/
+experiments/04b_reviews_27b/*.json
+experiments/4b_04b_reviews/
+archive_v1_phi2/datasets/
+
+# Tokenizer copies saved next to each adapter (identical to the base model tokenizer)
+models/**/tokenizer.json

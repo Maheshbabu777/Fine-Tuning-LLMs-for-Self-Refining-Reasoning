@@ -1,0 +1,12 @@
+{
+ "model": "Qwen/Qwen3.5-2B-Base",
+ "problems": 7496,
+ "K": 4,
+ "chain_acc": 0.4683831376734258,
+ "unfinished_rate": 0.17549359658484526,
+ "all_wrong": 0.3379135538954109,
+ "all_right": 0.26987726787620064,
+ "mixed (usable for correction)": 0.39220917822838847,
+ "first_wrong_but_some_right": 0.18770010672358592,
+ "mean_tokens": 485.0270811099253
+}
