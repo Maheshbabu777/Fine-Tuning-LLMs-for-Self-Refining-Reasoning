@@ -1,0 +1,20 @@
+{
+  "app_api_key": "any long random string, same value as APP_API_KEY on Vercel",
+  "mode": "merged",
+  "accounts": [
+    {
+      "shard": "a",
+      "username": "shouldichangemyname",
+      "kaggle_token": "token1",
+      "ngrok_authtoken": "from dashboard.ngrok.com of ngrok account 1",
+      "ngrok_domain": "first-name.ngrok-free.app"
+    },
+    {
+      "shard": "b",
+      "username": "likhilchandrabingi",
+      "kaggle_token": "token2",
+      "ngrok_authtoken": "from dashboard.ngrok.com of ngrok account 2",
+      "ngrok_domain": "second-name.ngrok-free.app"
+    }
+  ]
+}

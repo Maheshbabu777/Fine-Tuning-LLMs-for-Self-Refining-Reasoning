@@ -57,3 +57,6 @@ archive_v1_phi2/datasets/
 
 # Tokenizer copies saved next to each adapter (identical to the base model tokenizer)
 models/**/tokenizer.json
+
+# Kaggle server settings with ngrok tokens and the app key (app/kaggle/push.ps1)
+app/kaggle/accounts.local.json
