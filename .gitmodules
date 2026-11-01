@@ -1,0 +1,3 @@
+[submodule ".powers"]
+	path = .powers
+	url = https://github.com/Maheshbabu777/powers.git
